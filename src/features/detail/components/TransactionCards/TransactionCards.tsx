@@ -83,7 +83,7 @@ export const TransactionCards = ({
                   <S.PageButton
                     key={page}
                     onClick={() => onPageChange(page)}
-                    active={page === currentPage}
+                    $active={page === currentPage}
                   >
                     {page}
                   </S.PageButton>

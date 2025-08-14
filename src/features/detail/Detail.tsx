@@ -63,6 +63,15 @@ export const Detail = () => {
     }
   }, [usersError, transactionsError]);
 
+  useEffect(() => {
+    setCurrentPage(1);
+    setSearchTerm("");
+    setStatusFilter("all");
+    setSelectedCurrency("all");
+    setSortBy("date");
+    setSortDirection("desc");
+  }, [id]);
+
   const processedTransactions = useMemo(() => {
     if (!transactions) return [];
 

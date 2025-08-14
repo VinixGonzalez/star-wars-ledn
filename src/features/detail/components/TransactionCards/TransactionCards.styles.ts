@@ -253,14 +253,14 @@ export const PageNumbers = styled.div`
   }
 `;
 
-export const PageButton = styled.button<{ active: boolean }>`
-  background: ${({ active, theme }) =>
-    active ? theme.colors.tertiary : "rgba(255, 255, 255, 0.1)"};
-  color: ${({ active, theme }) =>
-    active ? theme.colors.primary : theme.colors.secondary};
+export const PageButton = styled.button<{ $active: boolean }>`
+  background: ${({ $active, theme }) =>
+    $active ? theme.colors.tertiary : "rgba(255, 255, 255, 0.1)"};
+  color: ${({ $active, theme }) =>
+    $active ? theme.colors.primary : theme.colors.secondary};
   border: 1px solid
-    ${({ active, theme }) =>
-      active ? theme.colors.tertiary : "rgba(255, 255, 255, 0.2)"};
+    ${({ $active, theme }) =>
+      $active ? theme.colors.tertiary : "rgba(255, 255, 255, 0.2)"};
   border-radius: ${({ theme }) => theme.radii.xs};
   padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.sm};
   font-size: ${({ theme }) => theme.typography.fontSize.sm};
@@ -274,8 +274,8 @@ export const PageButton = styled.button<{ active: boolean }>`
   justify-content: center;
 
   &:hover {
-    background: ${({ active, theme }) =>
-      active ? theme.colors.tertiary : "rgba(255, 255, 255, 0.2)"};
+    background: ${({ $active, theme }) =>
+      $active ? theme.colors.tertiary : "rgba(255, 255, 255, 0.2)"};
     transform: translateY(-1px);
   }
 

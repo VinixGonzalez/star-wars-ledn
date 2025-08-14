@@ -34,7 +34,7 @@ export const SearchInput = styled.input`
   transition: all 0.3s ease;
 
   &::placeholder {
-    color: ${({ theme }) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.tertiary};
     opacity: 1;
   }
 

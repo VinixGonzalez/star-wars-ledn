@@ -1,8 +1,51 @@
+# Star-Wars Ledn - Vini Gonzalez
+
+Hello!
+It was a pleasure for me to take this challenge, thank you!
+
+The project is responsive to all devices, made with mobile-first approach and styled-components.
+
+Based on the requirements, I thought a feature-based folder structure would be a good fit, it is scalable and easy to maintain.
+
+- The app folder contains the router setup and might contain other core files;
+- The entities folder contains all sets of data/types and interfaces;
+- The features folder contains all use cases, each one has its own components and hooks;
+- The pages folder contain all pages;
+- The shared folder contains all shareable configuration regarding the api, hooks, UI and utils.
+
+From flexible requirements, I chose to:
+
+- Add additional controls to filter the planets by terrain and climate.
+- Create the UI from scratch without using any UI component libraries.
+
+From AI use cases, I personally like to code using Cursor IDE, which helps with intellisense and with the code review.
+
+To run the project, locally just follow the official steps below.
+
+The project can also be accessed through this link
+
+- <https://star-wars-ledn.vercel.app/>
+
+I hope you enjoy it! ❤️
+
+Project Images
+
+Planet List
+<img src='https://i.postimg.cc/ZqfsjVJz/Captura-de-tela-2025-08-14-000601.png' />
+<img src='https://i.postimg.cc/6p41zdy8/Captura-de-tela-2025-08-14-003701.png' />
+
+Planet Details
+<img src='https://i.postimg.cc/FRXt0TpF/Captura-de-tela-2025-08-14-003327.png' />
+<img src='https://i.postimg.cc/fLNFVJWJ/Captura-de-tela-2025-08-14-003514.png' />
+<img src='https://i.postimg.cc/jSfZytFN/Captura-de-tela-2025-08-14-003830.png' />
+
+---
+
 <div align='center'>
   <img width='100%' src='https://cdn.prod.website-files.com/67e57166f96cd074b599cef1/67f64eb3650437f0d776ca14_67f3faf7757a2616f94a10c0_Ledn_Animation_short-1.gif'/>
-  <br><br>
+  <br /><br />
   <h3>Where digital assets come to life</h3>
-  <br><br>
+  <br /><br />
   <h1>Frontend technical challenge</h1>
 </div>
 
@@ -85,7 +128,7 @@ To ensure the success of your mission, adopt the following technical specificati
   You MUST choose 2 of the following requirements:
 
   - Implement a solution capable of turning all transactions with a status of `inProgress` for a given planet to `blocked` using a planet ID.
-  - ✅ Add additional controls to filter the planets by terrain and climate.
+  - Add additional controls to filter the planets by terrain and climate.
   - Create the UI from scratch without using any UI component libraries.
   - Add multiple languages to the application.
     - This should be built from scratch, without the addition of a i18n library for it (such as react-i18next or react-intl).
